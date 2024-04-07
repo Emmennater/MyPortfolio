@@ -6,7 +6,7 @@ html {
 
 div {
     color: white;
-    font-family: 'Lucida Sans';
+    font-family: Arial;
 }
 
 .title {
@@ -38,6 +38,13 @@ div {
     text-decoration: underline;
 }
 
+.resume {
+    flex: 1;
+    width: auto;
+    margin: 0px 4px;
+    margin-top: 10px;
+}
+
 .project-container {
     margin: 4px;
     margin-top: 42px;
@@ -57,9 +64,32 @@ div {
     background-color: #323639;
 }
 
-.resume {
-    flex: 1;
+.project-wrapper {
+    margin: 6px;
+    padding: 0px;
+    font-family: "Consolas";
+    color: black;
+    background-color: transparent;
+    box-shadow: 0px 0px 8px #0009;;
+}
+
+.project-wrapper a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 3px;
+    height: auto;
     width: auto;
-    margin: 0px 4px;
-    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: black;
+}
+
+.project-wrapper iframe {
+    display: block;
+    width: 100%;
+    height: 25vh;
+    margin: 0px;
+    padding: 0px;
 }
