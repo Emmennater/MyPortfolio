@@ -1,0 +1,65 @@
+html {
+    width: 100%;
+    height: 100%;
+    background: #242729;
+}
+
+div {
+    color: white;
+    font-family: 'Lucida Sans';
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+}
+
+.hbox {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}
+
+.vbox {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.content-container {
+    flex: 1;
+    margin: 4px;
+    width: 30vw;
+}
+
+.content-container h2 {
+    font-size: 24px;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+.project-container {
+    margin: 4px;
+    margin-top: 42px;
+    width: 30vw;
+    height: 90vh;
+    background-color: #525659;
+}
+
+.project-container h1 {
+    display: flex;
+    height: 58px;
+    margin: 0px;
+    font-size: 24px;
+    font-weight: normal;
+    align-items: center;
+    justify-content: center;
+    background-color: #323639;
+}
+
+.resume {
+    flex: 1;
+    width: auto;
+    margin: 0px 4px;
+    margin-top: 10px;
+}
