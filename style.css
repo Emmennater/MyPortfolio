@@ -50,7 +50,8 @@ div {
     margin-top: 42px;
     width: 30vw;
     height: 90vh;
-    background-color: #525659;
+    background-color: transparent;
+    /* background-color: #525659; */
 }
 
 .project-container h1 {
@@ -65,9 +66,10 @@ div {
 }
 
 .project-wrapper {
-    margin: 6px;
+    /* margin: 6px; */
+    margin-top: 6px;
     padding: 0px;
-    font-family: "Consolas";
+    font-family: Arial;
     color: black;
     background-color: transparent;
     box-shadow: 0px 0px 8px #0009;;
@@ -75,21 +77,29 @@ div {
 
 .project-wrapper a {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: left;
     margin: 0px;
-    padding: 3px;
+    padding: 4px;
     height: auto;
     width: auto;
     font-size: 16px;
-    font-weight: bold;
-    background-color: black;
+    text-decoration: none;
+    font-style: italic;
+    color: white;
+    background-color: #323639;
 }
 
-.project-wrapper iframe {
+.project-wrapper iframe, .project-wrapper img {
     display: block;
     width: 100%;
     height: 25vh;
     margin: 0px;
     padding: 0px;
+    object-fit: cover;
+}
+
+a .ico {
+    margin: 0px 4px;
+    width: 16px;
+    height: 16px;
 }
