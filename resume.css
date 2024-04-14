@@ -28,7 +28,9 @@
 }
 
 .back-button {
+  position: absolute;
   display: inline-block;
+  left: 12px;
   margin: 0px;
   margin-left: 12px;
   padding: 4px 18px;
