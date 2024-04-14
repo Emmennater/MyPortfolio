@@ -27,7 +27,7 @@
   text-align: center;
 }
 
-.back-button {
+.resume-header .back-button {
   position: absolute;
   display: inline-block;
   left: 12px;
