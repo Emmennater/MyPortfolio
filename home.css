@@ -1,0 +1,62 @@
+
+body {
+  padding: 20px;
+}
+
+a {
+  width: calc(100% - 12px);
+  padding: 12px;
+  font-size: 14px;
+  align-self: center;
+  text-align: center;
+  background-color: transparent;
+  color: white;
+  border: solid 2px #fff2;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+a:hover {
+  background-color: #ffffff02;
+  text-decoration: underline;
+}
+
+p {
+  margin: 12px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  margin: 0px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.contentbox {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  padding: 20px;
+  background-color: #323639;
+  border-radius: 6px;
+}
+
+.title {
+  flex: 0;
+  margin-bottom: 12px;
+}
+
+.pfp {
+  width: 20vw;
+  height: 20vw;
+  margin: 8px;
+  object-fit: cover;
+  border-radius: 50%;
+  align-self: center;
+}
+
+.hbox, .vbox {
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
