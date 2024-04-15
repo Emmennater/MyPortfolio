@@ -25,3 +25,11 @@ div {
     flex-direction: column;
     height: auto;
 }
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
