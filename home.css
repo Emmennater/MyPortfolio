@@ -10,6 +10,7 @@ a {
   align-self: center;
   text-align: center;
   background-color: transparent;
+  text-decoration: none;
   color: white;
   border: solid 2px #fff2;
   border-radius: 4px;
