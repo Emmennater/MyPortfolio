@@ -34,10 +34,18 @@ h1 {
 .contentbox {
   display: flex;
   flex-direction: column;
-  width: 40vw;
+  width: calc(min(90vw, 600px));
   padding: 20px;
   background-color: #323639;
   border-radius: 6px;
+}
+
+.contentbox b {
+  display: inline-block;
+  text-align: left;
+  min-width: 50px;
+  margin-right: 10px;
+  margin-bottom: 6px;
 }
 
 .title {
@@ -46,8 +54,8 @@ h1 {
 }
 
 .pfp {
-  width: 20vw;
-  height: 20vw;
+  width: 30vh;
+  height: 30vh;
   margin: 8px;
   object-fit: cover;
   border-radius: 50%;
